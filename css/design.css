@@ -19,4 +19,16 @@ h1{
     left:580px;
 
 }
-
+.logo-icon{
+    margin-right: 15px;
+}
+.selected-work{
+    display: flex;
+    position: absolute;
+    left: 500px;
+}
+.the-last{
+    display: flex;
+    position: absolute;
+    left: 1250px;
+}
