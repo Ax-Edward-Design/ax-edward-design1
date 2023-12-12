@@ -16,10 +16,7 @@ h1 {
 }
 
 .icon-row {
-    display: flex;
-    position: absolute;
-    top: 200px;
-    left: 580px;
+    top:295px;
 }
 
 .logo-icon {
@@ -49,16 +46,27 @@ h1 {
 }
 
 .icon-row .icon-item1 svg path{
+    fill: #e6563c; /* Change this to your desired color */
+    max-width: 150px; /* Adjust the maximum width to your desired size */
+    height: auto; /
 
 }
 .icon-row .icon-item2 svg path{
+    fill: #eb9e3a; /* Change this to your desired color */
+    max-width: 150px; /* Adjust the maximum width to your desired size */
+    height: auto; /
 
 }
 .icon-row .icon-item3 svg path{
+    fill: #7db06c; /* Change this to your desired color */
+    max-width: 150px; /* Adjust the maximum width to your desired size */
+    height: auto; /
 
 }
 .icon-row .icon-item4 svg path {
-    fill: #ff0000; /* Change this to your desired color */
+    fill: #00aba9; /* Change this to your desired color */
+    max-width: 150px; /* Adjust the maximum width to your desired size */
+    height: auto; /
 }
 
 
