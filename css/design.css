@@ -60,3 +60,9 @@ h1 {
 .icon-row .icon-item4 svg path {
     fill: #ff0000; /* Change this to your desired color */
 }
+
+
+.smaller-image {
+     max-width: 150px; /* Adjust the maximum width to your desired size */
+     height: auto; /* Maintain aspect ratio */
+ }
