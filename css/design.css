@@ -1,34 +1,62 @@
-body{
+body {
     background-color: lightgray;
 }
 
-.navbar-brand{
+.navbar-brand {
     font-size: 25px;
     margin-right: 2em;
 }
-.nav-item{
+
+.nav-item {
     font-size: 12px;
 }
-h1{
+
+h1 {
     font-family: 'anton regular', sans-serif;
 }
-.icon-row{
+
+.icon-row {
     display: flex;
     position: absolute;
-    top:200px;
-    left:580px;
-
+    top: 200px;
+    left: 580px;
 }
-.logo-icon{
+
+.logo-icon {
     margin-right: 15px;
 }
+
 .selected-work{
     display: flex;
     position: absolute;
-    left: 500px;
+    left: 450px;
 }
-.the-last{
+.the-last {
     display: flex;
     position: absolute;
-    left: 1250px;
+    left: 980px;
+    /* Adjust left property as needed */
+}
+
+.row1{
+    position: absolute;
+    left: 0;
+}
+.row2 {
+    position: absolute;
+    left: 0;
+    /* Adjust left and top properties as needed */
+}
+
+.icon-row .icon-item1 svg path{
+
+}
+.icon-row .icon-item2 svg path{
+
+}
+.icon-row .icon-item3 svg path{
+
+}
+.icon-row .icon-item4 svg path {
+    fill: #ff0000; /* Change this to your desired color */
 }
