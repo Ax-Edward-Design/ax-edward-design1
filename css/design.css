@@ -73,4 +73,9 @@ h1 {
 .smaller-image {
      max-width: 150px; /* Adjust the maximum width to your desired size */
      height: auto; /* Maintain aspect ratio */
+    padding-right: 20px;
  }
+
+.page-header{
+    padding-bottom: 150px;
+}
