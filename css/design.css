@@ -160,11 +160,18 @@ h1 {
         display: none;
     }
     .icon-row{
-        top:260px;
+        top:300px;
+
     }
     .first-header{
         margin-bottom: 30px;
 
+    }
+    .page-header{
+        margin-left: 14em;
+        margin-top: 2em;
+        max-width: 400px;
+        flex-wrap: wrap;
     }
 
 }
@@ -172,7 +179,7 @@ h1 {
     @media (min-width: 0px) and (max-width: 767px) {
         .icon-row {
             position: absolute;
-            top: 310px;
+            top: 340px;
             flex-wrap: wrap;
             margin-left: 2em;
             max-width: 150px;
@@ -188,14 +195,16 @@ h1 {
             display: none;
         }
         .selected-work{
-            margin-top: 3em;
+            margin-top: 1em;
             margin-left: 12em;
 
         }
         .page-header{
-            margin-left: 2em;
+            margin-left: 14em;
             margin-top: 2em;
             width: 100%;
+            max-width: 350px;
+            flex-wrap: wrap;
         }
         .third-one{
             display: none;
