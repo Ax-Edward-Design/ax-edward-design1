@@ -1,5 +1,28 @@
 body {
-    background-color: lightgray;
+    background-color: #f0f0f0;
+}
+
+.page-wrapper {
+    position: relative;
+    max-width: 100%;
+}
+
+.container {
+    width: 100%;
+    max-width: 1000px; /* Adjust the max-width based on your design */
+    margin: 0 auto; /* Center the container on the page */
+}
+
+.selected-work {
+    position: relative;
+    left: -85px;
+    padding: 20px;
+}
+
+.the-last {
+    position: absolute;
+    bottom: 38px; /* Adjust the distance from the bottom */
+    left: 770px; /* Adjust the distance from the left */
 }
 
 .navbar-brand {
@@ -16,66 +39,177 @@ h1 {
 }
 
 .icon-row {
-    top:295px;
+    top: 230px;
+    flex-wrap: wrap;
+
 }
 
 .logo-icon {
     margin-right: 15px;
 }
 
-.selected-work{
-    display: flex;
-    position: absolute;
-    left: 450px;
-}
-.the-last {
-    display: flex;
-    position: absolute;
-    left: 980px;
-    /* Adjust left property as needed */
-}
 
-.row1{
+.row1 {
     position: absolute;
     left: 0;
 }
+
 .row2 {
     position: absolute;
     left: 0;
     /* Adjust left and top properties as needed */
 }
 
-.icon-row .icon-item1 svg path{
+.icon-row .icon-item1 svg path {
     fill: #e6563c; /* Change this to your desired color */
     max-width: 150px; /* Adjust the maximum width to your desired size */
-    height: auto; /
+    height: auto;
+/
 
 }
-.icon-row .icon-item2 svg path{
+
+.icon-row .icon-item2 svg path {
     fill: #eb9e3a; /* Change this to your desired color */
     max-width: 150px; /* Adjust the maximum width to your desired size */
-    height: auto; /
+    height: auto;
+/
 
 }
-.icon-row .icon-item3 svg path{
+
+.icon-row .icon-item3 svg path {
     fill: #7db06c; /* Change this to your desired color */
     max-width: 150px; /* Adjust the maximum width to your desired size */
-    height: auto; /
+    height: auto;
+/
 
 }
+
 .icon-row .icon-item4 svg path {
     fill: #00aba9; /* Change this to your desired color */
     max-width: 150px; /* Adjust the maximum width to your desired size */
-    height: auto; /
+    height: auto;
+/
 }
 
 
 .smaller-image {
-     max-width: 150px; /* Adjust the maximum width to your desired size */
-     height: auto; /* Maintain aspect ratio */
+    max-width: 150px; /* Adjust the maximum width to your desired size */
+    height: auto; /* Maintain aspect ratio */
     padding-right: 20px;
- }
+}
 
-.page-header{
+.page-header {
     padding-bottom: 150px;
 }
+
+@media (min-width: 1200px) {
+    hr {
+        width: 68%;
+        margin: 0 auto;
+    }
+
+    .the-last {
+        margin-left: 6em;
+        margin-bottom: 0;
+    }
+
+
+}
+
+@media (min-width: 991px) and (max-width: 1200px) {
+    hr {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .the-last {
+        margin-left: 6em;
+        margin-bottom: 0;
+    }
+
+    .col-md-4 {
+        margin-bottom: 10em;
+    }
+
+    .second-one{
+        padding-top:5em;
+    }
+    .first-one {
+        padding-top: 5em;
+    }
+    }
+
+@media (min-width: 767px) and (max-width: 991px) {
+    .the-last {
+        display: none;
+    }
+    .third-one{
+        display: none;
+    }
+    hr {
+        width: 68%;
+        margin: 0 auto;
+    }
+    .selected-work{
+        margin-left: 10em;
+    }
+    .first-one{
+        margin-left: 8em;
+    }
+    .navbar-brand{
+        display: none;
+    }
+    .icon-row{
+        top:260px;
+    }
+    .first-header{
+        margin-bottom: 30px;
+
+    }
+
+}
+
+    @media (min-width: 0px) and (max-width: 767px) {
+        .icon-row {
+            position: absolute;
+            top: 310px;
+            flex-wrap: wrap;
+            margin-left: 2em;
+            max-width: 150px;
+        }
+
+        hr {
+            display: none;
+        }
+        .navbar-brand{
+            display: none;
+        }
+        .the-last{
+            display: none;
+        }
+        .selected-work{
+            margin-top: 3em;
+            margin-left: 12em;
+
+        }
+        .page-header{
+            margin-left: 2em;
+            margin-top: 2em;
+            width: 100%;
+        }
+        .third-one{
+            display: none;
+        }
+        .first-one{
+            margin-left: 3em;
+        }
+        .second-one{
+            margin-left: 3em;
+        }
+        .first-header{
+            margin-bottom: 30px;
+
+        }
+    }
+
+
